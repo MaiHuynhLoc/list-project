@@ -1,0 +1,31 @@
+{
+    "name": "project",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MaiHuynhLoc/project-list.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MaiHuynhLoc/project-list/issues"
+    },
+    "homepage": "https://github.com/MaiHuynhLoc/project-list#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.17.1",
+        "express-async-handler": "^1.1.4",
+        "mongoose": "^5.11.9"
+    },
+    "devDependencies": {
+        "eslint": "^7.15.0",
+        "eslint-plugin-react": "^7.21.5",
+        "nodemon": "^2.0.6"
+    }
+}
